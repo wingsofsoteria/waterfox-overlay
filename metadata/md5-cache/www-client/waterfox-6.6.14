@@ -13,6 +13,6 @@ RDEPEND=selinux? ( sec-policy/selinux-mozilla ) >=app-accessibility/at-spi2-core
 REQUIRED_USE=|| ( X wayland ) debug? ( !system-av1 ) wayland? ( dbus ) wifi? ( dbus ) ^^ ( llvm_slot_19 llvm_slot_20 llvm_slot_21 llvm_slot_22 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://github.com/WaterfoxCo/Waterfox/archive/refs/tags/6.6.9.tar.gz -> waterfox-6.6.9.tar.gz https://github.com/BrowserWorks/l10n/archive/b2b530a96eaefc787ef3cedc0a9b61ec5e924232.zip -> waterfox-6.6.9-l10n.zip https://dev.gentoo.org/~juippis/mozilla/patchsets/firefox-140esr-patches-07.tar.xz
+SRC_URI=https://github.com/WaterfoxCo/Waterfox/archive/refs/tags/6.6.14.tar.gz -> waterfox-6.6.14.tar.gz https://github.com/BrowserWorks/l10n/archive/b2b530a96eaefc787ef3cedc0a9b61ec5e924232.zip -> waterfox-6.6.9-l10n.zip https://dev.gentoo.org/~juippis/mozilla/patchsets/firefox-140esr-patches-07.tar.xz
 _eclasses_=check-reqs	12ab9d3fc16bfe1f87c6fb652324b57c	desktop	26d57169ca094c04be416993844ec8bc	toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	linux-info	efd923656513c879204fec6638eadee5	llvm-utils	e7edb4086e31c8537574b263d899f826	llvm-r1	7fb804a45baeadb298e57882952251f4	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	pax-utils	5555f2e75744739fe100ee62c22d28fe	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	python-utils-r1	3ce55b5ac9c0a92cc4aeb1f88010d707	python-any-r1	891415dfe39ad9b41b461f2b86354af0	rust	c5ae4c9b5eca97bd7fc77fede663873f	virtualx	9741d451eb64ea8bb9faee90d68a9b68	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=42ae544ea0a952a8f83fd5f7305066a3
+_md5_=980fe2e9fd4b1630240fba97ebac7bd6
